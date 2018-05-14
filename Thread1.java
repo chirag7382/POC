@@ -5,7 +5,7 @@ public class Thread1 {
 	public static void main(String[] args) {
 		/**
 		 * thread.start() method starts a new OS process for a thread. calling run() method will 
-		 * run the thread anyway. But using start, we can run threads concurrently (simultaneously)
+		 * run the thread anyway. But using start, we can run threads concurrently ()
 		 */
 		
 		//running multiple Threads using extended Thread Class way (Method 1)
