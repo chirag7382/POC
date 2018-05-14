@@ -3,7 +3,7 @@ public class Thread3 {
 	
 	private static int count=0;
 	// Synchronized tells the threads to wait till the current invocation of the method has ended gracefully.
-	// It locks the thread till this happens. So it prevents race condition between two threads.
+	// It locks the thread till this happens. So it prevents race condition between two threads.!
 	public synchronized static void incrementCount(){
 		count++;
 	}
